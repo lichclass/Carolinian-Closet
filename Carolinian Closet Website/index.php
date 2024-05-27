@@ -11,6 +11,19 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
     <link rel="manifest" href="favicon_io/site.webmanifest">
+    <style>
+        .welcome-pg {
+            background: url('images/landing1.jpg') no-repeat center center / cover;
+        }
+
+        .uniforms {
+            background: url('images/uniform_pg.jpg') no-repeat #f6f6f6 left center / contain;
+        }
+
+        .schools {
+            background: url('images/schools_pg.png') no-repeat #f6f6f6 right center / contain;
+        }
+    </style>
 </head>
 <body>
 

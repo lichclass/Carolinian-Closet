@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Schools of USC</title>
-    <link rel="stylesheet" href="/Carolinian Closet Website/styles/genstyles.css">
-    <link rel="stylesheet" href="/Carolinian Closet Website/styles/schools_styles.css">
+    <link rel="stylesheet" href="styles/genstyles.css">
+    <link rel="stylesheet" href="styles/schools_styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">

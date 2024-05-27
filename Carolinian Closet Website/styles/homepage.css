@@ -7,7 +7,6 @@
 /*=============== Welcome Section Styles ===============*/
 
 .welcome-pg {
-    background: url('/Carolinian Closet Website/images/landing1.jpg') no-repeat center center / cover;
     height: 250px;
     text-align: center;
     padding-top: 6%;
@@ -53,12 +52,7 @@
 }
 
 .uniforms {
-    background: url('/Carolinian Closet Website/images/uniform_pg.jpg') no-repeat #f6f6f6 left center / contain;
     justify-content: end;
-}
-
-.schools {
-    background: url('/Carolinian Closet Website/images/schools_pg.png') no-repeat #f6f6f6 right center / contain;
 }
 
 .uniforms a,
