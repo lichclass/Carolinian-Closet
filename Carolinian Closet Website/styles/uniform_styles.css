@@ -1,0 +1,180 @@
+/**
+ * @file: uniform_styles.css
+ * @desc: provides the CSS for 'uniforms.php'
+ */
+
+
+/*============ 'Uniform' cards Page Styles ============*/
+
+.card {
+    border: none !important;
+    margin-bottom: 40px;
+}
+
+.card img {
+    border: black solid 1px;
+    border-radius: 10px;
+}
+
+.card-body {
+    width: 100% !important;
+}
+
+
+/*============ 'Add to Cart' Page Styles ============*/
+
+#order-uni-img {
+    display: flex;
+    justify-content: center;
+    padding: 0 20px 20px;
+}
+
+#order-info {
+    padding: 0 20px 20px 50px;
+}
+
+#order-uni-img img {
+    border-radius: 10px;
+    max-width: 70%;
+    height: auto;
+}
+
+.uniform-desc {
+    padding-top: 20px;
+}
+
+.gender-uni,
+.name-uni {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.gender-uni {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.name-uni {
+    font-size: 40px;
+}
+
+.price-uni {
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 5px; 
+}
+
+#add-to-cart {
+    background: #ffd700;
+    border-radius: 4px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 40px 0;
+    padding: 10px;
+    width: 70%;
+}
+
+.form-label {
+    font-size: 14px;
+    font-weight: 650;
+    padding: 50px 0 5px 0;
+}
+
+/* For Desktop Screens */
+@media only screen and (min-width: 1200px){
+    #order-info {
+        padding: 0 20px 20px;
+    }
+}
+
+
+/*============ Radio Tiles' Styles ============*/
+/**
+ * @desc: provides the CSS for the sizes tiles like
+ * ----S-M-L-XL----
+ */
+
+.sizes-container {
+    display: flex;
+}
+
+.input-container {
+    position: relative;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1rem;
+}
+
+.input-container input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    cursor: pointer;
+    z-index: 2;
+    opacity: 0;
+}
+
+.input-container .radio-tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border: 1px solid;
+    transition: all 300ms ease;
+}
+
+.input-container label {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+input:checked+.radio-tile {
+    background: #e8e6e6;
+} 
+
+input:checked+.radio-tile label {
+    font-weight: bold;
+}
+
+
+/*============ Quantity Styles ============*/
+
+.quantity-container {
+    display: flex;
+}
+
+.quantity-container .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 600,
+    'GRAD' 0,
+    'opsz' 24;
+    cursor: pointer;
+}
+
+#quantity {
+    width: 80px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/**
+ * Removes the up/down arrows default for input[type=number] 
+ * Works for Chrome, Safari, Edge, Opera
+*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/**
+ * Removes the up/down arrows default for input[type=number] 
+ * Works for Firefox
+*/
+input[type=number] {
+    -moz-appearance: textfield;
+}

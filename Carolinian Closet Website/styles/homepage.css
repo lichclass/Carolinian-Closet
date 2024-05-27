@@ -1,0 +1,168 @@
+/**
+ * @file: homepage.css
+ * @desc: provides the CSS for 'index.php'
+ */
+
+
+/*=============== Welcome Section Styles ===============*/
+
+.welcome-pg {
+    background: url('/Carolinian Closet Website/images/landing1.jpg') no-repeat center center / cover;
+    height: 250px;
+    text-align: center;
+    padding-top: 6%;
+}
+
+.welcome-pg span {
+    line-height: 34px;
+    font: italic 550 45px/34px sans-serif;
+    letter-spacing: 2px;
+}
+
+.welcome-pg .carolinian {
+    color: #117042;
+}
+
+.welcome-pg .closet {
+    color: #2b9562;
+    text-shadow: 0 4px 4px #80808041;
+}
+
+
+/* For Desktop Screens */
+@media only screen and (min-width: 1200px)  {
+    .welcome-pg {
+        height: 45rem;
+    }
+    
+    .welcome-pg span {
+        font-size: 8rem;
+        line-height: 6rem;
+        letter-spacing: 0.5rem;
+    }
+}
+
+
+/*=============== Pages Section Styles ===============*/
+
+.uniforms,
+.schools {
+    display: flex;
+    flex-direction: row;
+    margin: 80px 0;
+}
+
+.uniforms {
+    background: url('/Carolinian Closet Website/images/uniform_pg.jpg') no-repeat #f6f6f6 left center / contain;
+    justify-content: end;
+}
+
+.schools {
+    background: url('/Carolinian Closet Website/images/schools_pg.png') no-repeat #f6f6f6 right center / contain;
+}
+
+.uniforms a,
+.schools a {
+    color: #117042;
+    text-decoration: none;
+    font: bold italic normal 16px/normal sans-serif;
+}
+
+.uniforms a span,
+.schools a span {
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+.page-redirect-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin: 40px;
+}
+
+.category-title {
+    color: #196115;
+    font-size: 30px;
+}
+
+
+/* For Desktop Screens */
+@media only screen and (min-width: 1200px) {
+    .uniforms,
+    .schools {
+        margin: 200px 0;
+    }
+
+    .uniforms a span,
+    .schools a span {
+        font-size: 1.2rem;
+    }
+    
+    .page-redirect-text {
+        margin: 120px 40px;
+    }
+
+    .category-title {
+        font-size: 4rem;
+    }
+}
+
+
+
+/*=============== Transactions Section Styles ===============*/
+
+.transaction {
+    display: flex;
+    justify-content: center;
+}
+
+.transaction div {
+    background-color: white;
+    box-shadow: 0 4px 4px #00000041;
+    width: 170px;
+    padding: 10px;
+    margin: 40px 10px;
+}
+
+.transaction a {     
+    text-decoration: none;
+    font-style: italic;
+}
+
+.transaction span {
+    vertical-align: middle;
+    color: #117042;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.transaction .material-symbols-outlined {
+    font-size: 50px;
+    color: black;
+}
+
+
+/* For Desktop Screens */
+@media only screen and (min-width: 1200px) {
+    .transaction div {
+        width: 16rem;
+        height: 5rem;
+        margin: 70px 80px;
+    }
+
+    .transaction span {
+        font-size: 1rem;
+    }
+}
+
+
+
+/*=============== Footer Section Styles ===============*/
+
+/* Serves as a design choice. Can be scaled to include more details */
+footer { 
+    background-color: #117042;
+    height: 50px;
+}

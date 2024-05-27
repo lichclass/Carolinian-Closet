@@ -1,0 +1,9 @@
+﻿uniform,image,category, price ,gender,sizes,,,
+BLOUSE,blouse.jpg,FEMALE UNIFORM, 775.00 ,WOMEN,S,M,L,XL
+WOMEN'S PANTS,women_pants.jpg,FEMALE UNIFORM, 625.00 ,WOMEN,S,M,L,XL
+SKIRT,skirt.jpg,FEMALE UNIFORM, 570.00 ,WOMEN,S,M,L,XL
+POLO,polo.jpg,MALE UNIFORM, 755.00 ,MEN,16,17,18,19
+MEN'S PANTS,men_pants.jpg,MALE UNIFORM, 695.00 ,MEN,16,17,18,19
+PE SHIRT,pe_uni_shirt.jpg,PE UNIFORM, 150.00 ,UNISEX,S,M,L,XL
+PE PANTS,pe_uni_pants.jpg,PE UNIFORM, 150.00 ,UNISEX,S,M,L,XL
+NSTP SHIRT,nstp.jpg,NSTP, 150.00 ,UNISEX,S,M,L,XL

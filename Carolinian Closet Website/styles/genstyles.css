@@ -1,0 +1,183 @@
+/**
+ * @file: genstyles.css
+ * @desc: provides the CSS for all the HTML pages
+ */
+
+
+/*============ General Styles ============*/
+
+/* Importing font: 'Montserrat' */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.row {
+    justify-content: center;
+}
+
+
+/*============ Navigation Bar Styles ============*/
+
+/* Acts as a 'static' navbar because the actual 'absolute' nav is destroying the layout */
+.nav-proxy{
+    height: 56px;
+}
+
+.nav-actual {
+    display: flex;
+    justify-content: center;
+    background: #127043;
+    box-shadow: 0 4px 4px #00000041;
+    height: 56px;
+    width: 100%;
+    color: white;
+    position: fixed;
+    top: 0;
+    z-index: 4;
+}
+
+.nav-actual .usc-logo-nav,
+.nav-actual .icons-nav {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 5px 10px;
+}
+
+.usc-logo-nav img {
+    height: 40px;
+}
+
+.icons-nav {
+    flex-direction: row; 
+    justify-content: end;
+}
+
+.icons-nav a,
+.icons-nav .material-symbols-outlined {
+    color: white;
+    font-size: 20px;
+    margin: 5px;
+}
+
+
+/*============ Carolinian Closet Logo Styles ============*/
+
+.cc-logo {
+    flex-direction: column;
+    text-align: center;
+    line-height: 16px;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin: 0 8px;
+}
+
+.cc-logo a {
+    text-decoration: none;
+}
+
+.cc-logo .carolinian {
+    color: #ffff;
+}
+
+.cc-logo .closet {
+    color: #b6d8c7;
+    text-shadow: 0 4px 4px #80808041;
+}
+
+
+/*============ General Text Styles ============*/
+/**
+ * @desc: provides the CSS for all the text layouts across pages.
+ * Used in 'schools.php' and 'uniforms.php'
+ */
+
+.container-header {
+    text-align: center;
+    padding: 10px;
+}
+
+.pg-heading, .heading, .heading-2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.pg-heading {
+    font-size: 60px;
+}
+
+.heading {
+    line-height: 50px;
+    font-size: 76px;
+}
+
+.heading-2 {
+    line-height: 30px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.gen-size-info {
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+    font-weight: bold;
+    color: #d9d9d9;
+}
+
+.card-title {
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 20px;
+}
+
+
+/* For Desktop Screens */
+@media only screen and (min-width: 1200px){
+    .heading {
+        line-height: 6rem;
+        font-size: 6rem;
+    }
+
+    .heading-2 {
+        line-height: 3rem;
+        font-size: 3rem;
+    }
+}
+
+
+/*============ Back button Styles ============*/
+
+#back-btn {
+    padding: 10px 0px 0px 30px;
+}
+
+#back-btn span {
+    font-size: 40px; 
+    font-weight: 700;
+    cursor: pointer;
+    color: #117042;
+}
+
+
+/*============ Error Styles ============*/
+
+.head-error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+}
+
+.head-error span {
+    font-size: 25px;
+}
+
+

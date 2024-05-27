@@ -1,0 +1,90 @@
+/**
+ * @file: orders_styles.css
+ * @desc: provides the CSS for 'orders.php'
+ */
+
+
+/*============ General Styles ============*/
+
+.container-order-updates, 
+.customer-order-container {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* For Desktop Screens */
+@media only screen and (min-width: 1200px) {
+    .container-order-updates, 
+    .customer-order-container {
+        margin-left: 8rem;
+        margin-right: 8rem;
+    }
+}
+
+
+/*============ Orders Pages Styles ============*/
+
+.container-order-updates {
+    display: flex;
+    text-align: center;
+    background: #f6f6f6;
+    box-shadow: 0 4px 4px #00000040;
+}
+
+.container-order-updates div {
+    padding: 16px 0;
+    font-weight: 500;
+}
+
+
+/*============ Customer Orders Styles ============*/
+
+.customer-order-container {
+    margin-top: 20px;
+    background: #c9dfc8;
+    padding: 16px;
+}
+
+.customer-order {   
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.customer-order-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 8px;
+}
+
+.customer-order-info img {
+    height: 100px;
+    width: 100px;
+    border-radius: 2px;
+}
+
+.customer-order-details {
+    width: 91%;
+    padding: 10px 10px 10px 20px;
+}
+
+.order-gen-size-quant {
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+    font-weight: light;
+}
+
+.order-total {
+    display: block;
+    text-align: right;
+    padding-right: 20px;
+    font-weight: 500;
+}
+
+.cust-order-uni-name {
+    font-weight: 600;
+}
+
+

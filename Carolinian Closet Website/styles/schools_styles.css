@@ -1,0 +1,103 @@
+/**
+ * @file: schools_styles.css
+ * @desc: provides the CSS for 'schools.php'
+ */
+
+
+/*============ 'School of USC' cards styles ============*/
+
+#schools-pg {
+    padding: 0;
+}
+
+/* Set !important due to Bootstrap 5 overriding user defined properties */
+#schools-pg .card {
+    width: 200px !important;
+    height: 200px !important;
+    margin: 10px;
+    border: 8px solid !important;
+    border-radius: 20px !important;
+    padding: 0 !important;
+}
+
+#schools-pg .card-body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    border-radius: 14px;
+    height: 100%;
+    color: white !important;
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+}
+
+#schools-pg .card-body .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+    opacity: 0.8;
+    z-index: 1;
+    border-radius: 14px;
+}
+
+#schools-pg .card-body .text {
+    position: relative;
+    z-index: 2;
+}
+
+/* For Desktop Screens */
+@media only screen and (min-width: 1200px) {
+    .schools-heading {
+        font-size: 5rem;
+    }
+    
+    #schools-pg .card {
+        width: 18rem !important;
+        height: 18rem !important;
+        margin: 70px;
+    }
+}
+
+
+/*============ Schools Merch Styles ============*/
+
+#school-actual .merch {
+    padding: 0;
+    margin: 15px 40px 60px 40px;
+    width: 340px !important;
+}
+
+#school-actual .merch .merch-img {
+    background: no-repeat center center / cover;
+    height: 400px !important;
+    border-radius: 60px;
+}
+
+.colors {
+    display: flex;
+}
+
+.color-avail {
+    width: 35px;
+    height: 35px;
+    margin: 10px 10px 10px 0;
+}
+
+.merch-price {
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.merch-info {
+    height: 56px;
+}
